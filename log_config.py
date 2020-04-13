@@ -22,8 +22,7 @@ morning_questions = [
 evening_routines = [
   "Took Vitamins",
   "practiced code",
-  "Exercised",
-  
+  "Exercised"
 ]
 
 evening_questions = [
