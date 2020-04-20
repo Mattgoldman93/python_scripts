@@ -27,7 +27,7 @@ if log_config.morning_questions:
     f.write("## Evening Questions")
     writeNewLines(f, 1)
     for question in log_config.evening_questions:
-        f.write("###" + question)
+        f.write("### " + question)
         writeNewLines(f, 3)
 f.write("### Log: ")
 writeNewLines(f, 3)
