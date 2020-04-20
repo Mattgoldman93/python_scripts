@@ -1,4 +1,6 @@
-folder_path = "/home/matt/daily-logs/"
+import os
+
+folder_path = os.environ['HOME'] + "/daily-logs/"
 
 morning_routines = [
   "read",

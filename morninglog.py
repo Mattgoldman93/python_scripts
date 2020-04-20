@@ -32,4 +32,7 @@ if log_config.morning_questions:
 f.write("### Log: ")
 writeNewLines(f, 3)
 f.close()
-os.system("code " + full_path)
+try:
+    os.system("code " + full_path)
+except:
+    os.system("open " + full_path)
